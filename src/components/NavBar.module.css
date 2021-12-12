@@ -129,6 +129,7 @@ a:hover:after {
     gap: 0.2rem;
     margin: 1rem;
     font-size: 1rem;
+    justify-content: space-around;
   }
 
 

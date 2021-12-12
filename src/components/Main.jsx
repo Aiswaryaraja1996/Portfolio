@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 export default function Main() {
   return (
-    <div>
+    <div width="100%" style={{overflowX: 'hidden'}}>
       <NavBar />
       {/* <About/> */}
       <TechStack />

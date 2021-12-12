@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+.contactDetails p {
+  padding: 0px !important;
+}
 .contact {
   width: 80%;
   margin: auto;
@@ -36,19 +39,18 @@
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-
-  margin-left: 10px;
+  gap:4px;
 }
 
-.contactDetails > div:nth-child(3){
-    margin-top: 160px;
+.contactDetails > div:nth-child(3) {
+  margin-top: 160px;
 }
 
-.contactDetails > div:nth-child(3) div{
-    margin-left:5px;
-    font-size: 18px;
-    margin-bottom: 5px;
-    color: #bc4e9c;
+.contactDetails > div:nth-child(3) div {
+ 
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #bc4e9c;
 }
 
 .formContainer input,
@@ -88,31 +90,39 @@
   height: 100px;
 }
 
-.contactDetails .clickMe{
-    position: relative;
-    animation: mymove 5s infinite;
+.contactDetails .clickMe {
+  position: relative;
+  animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
-    from {left: 0px;}
-  to {left: 50px;}
+  from {
+    left: 0px;
+  }
+  to {
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contactDetails {
+    width: 100%;
+    margin: auto;
+  }
+  .formContainer {
+    width: 100%;
+  }
+  .contactDetails > div:nth-child(3) {
+    margin-top: 20px;
   }
 
-
-  @media only screen and (max-width: 600px) {
-      .contact{
-          flex-direction: column;
-      }
-      .contactDetails{
-          width: 100%;
-          margin:auto;
-      }
-      .formContainer{
-          width: 100%;
-          padding:10px;
-      }
-      .contactDetails > div:nth-child(3){
-        margin-top: 20px;
-    }
+  .contactDetails > div:nth-child(2) p {
+    font-size: 18px;
   }
-
+  .contactDetails p:nth-child(1){
+      font-size:2.5rem;
+  }
+}
