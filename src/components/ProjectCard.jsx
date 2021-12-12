@@ -18,7 +18,7 @@ const ProjectCard = ({ item }) => {
           <div className={styles.icon}>
             <Tooltip title="Visit Website">
               <IconButton>
-                <LanguageIcon
+                <LanguageIcon href={item.web}
                   style={{ fontSize: 40, color: "#6E0DD0" }}
                 ></LanguageIcon>
               </IconButton>
@@ -26,7 +26,7 @@ const ProjectCard = ({ item }) => {
 
             <Tooltip title="Check GitHub Repo">
               <IconButton>
-                <GitHubIcon
+                <GitHubIcon href={item.git}
                   style={{ fontSize: 40, color: "#6E0DD0" }}
                 ></GitHubIcon>
               </IconButton>

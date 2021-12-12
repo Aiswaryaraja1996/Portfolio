@@ -10,7 +10,9 @@ const data = [
     year: 2021,
     team: 3,
     days: 10,
-    img: "./sudoku.png",
+    img: "./redbus.png",
+    git:"https://github.com/Aiswaryaraja1996/RedBus-Project",
+    web:"https://aiswaryaraja1996.github.io/RedBus-Project/"
   },
   {
     name: "Sudoku Game",
@@ -20,7 +22,10 @@ const data = [
     year: 2021,
     team: 3,
     days: 1,
-    img: "./redbus.png",
+    img: "./sudoku.png",
+    
+    git:"https://github.com/Aiswaryaraja1996/Sudoku-Game",
+    web:"https://aiswaryaraja1996.github.io/Sudoku-Game/"
   },
   {
     name: "HotJar Clone",
@@ -31,6 +36,8 @@ const data = [
     team: 3,
     days: 10,
     img: "./hotjar.png",
+    git:"https://github.com/Aiswaryaraja1996/Hotjar",
+    web:"https://aiswaryaraja1996.github.io/Hotjar/"
   },
 ];
 
