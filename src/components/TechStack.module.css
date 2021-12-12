@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.head {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: black;
+  font-weight: 900;
+  letter-spacing:2px;
+  padding-bottom: 50px;
+}
+
+item p{
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .head{
+    font-size: 2.5rem;
+  }
+}

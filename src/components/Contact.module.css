@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.contact {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 1.5rem;
+}
+
+.contactDetails {
+  width: 40%;
+}
+
+.contactDetails p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.contactDetails p:nth-child(1) {
+  font-size: 4rem;
+  background: -webkit-linear-gradient(#bc4e9c, #f80759);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactDetails > div:not(:nth-child(3)) {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+
+  margin-left: 10px;
+}
+
+.contactDetails > div:nth-child(3){
+    margin-top: 160px;
+}
+
+.contactDetails > div:nth-child(3) div{
+    margin-left:5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #bc4e9c;
+}
+
+.formContainer input,
+.formContainer textarea {
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+  border-style: none;
+  color: white;
+
+  border: 1px solid #6e0dd0;
+  padding: 3%;
+
+  border-radius: 7px;
+}
+
+.formContainer button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+  border: none;
+  background-image: linear-gradient(to right, #bc4e9c, #f80759);
+}
+
+.formContainer label {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.formContainer textarea {
+  height: 100px;
+}
+
+.contactDetails .clickMe{
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+  to {left: 50px;}
+  }
+
+
+  @media only screen and (max-width: 600px) {
+      .contact{
+          flex-direction: column;
+      }
+      .contactDetails{
+          width: 100%;
+          margin:auto;
+      }
+      .formContainer{
+          width: 100%;
+          padding:10px;
+      }
+      .contactDetails > div:nth-child(3){
+        margin-top: 20px;
+    }
+  }
+
