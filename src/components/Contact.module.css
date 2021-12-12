@@ -5,11 +5,13 @@
   padding: 0px !important;
 }
 .contact {
+    padding: 3%;
+padding-top: 50px;
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
-  padding: 3%;
+ 
 }
 
 .formContainer {

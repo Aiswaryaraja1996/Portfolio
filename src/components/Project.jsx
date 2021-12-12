@@ -36,7 +36,7 @@ const data = [
 
 export default function Project() {
   return (
-    <div>
+    <div style={{paddingBottom:"56px"}}>
       <p className={styles.head} id="project">Projects</p>
       {data.map((item) => (
         <ProjectCard item={item} />

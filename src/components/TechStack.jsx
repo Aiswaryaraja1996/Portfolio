@@ -28,51 +28,51 @@ export default function TechStack() {
         justifyContent="center"
         className={styles.itemCont}
       >
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/react.png" alt="react"></img>
             <p>React</p>
           </Item>
         </Grid>
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/javascript.png" alt="javascript"></img>
             <p>JavaScript</p>
           </Item>
         </Grid>
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/html5.png" alt="html5"></img>
             <p>HTML5</p>
           </Item>
         </Grid>
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/css3.png" alt="css3"></img>
             <p>CSS3</p>
           </Item>
         </Grid>
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/redux.png" alt="redux"></img>
             <p>Redux</p>
           </Item>
         </Grid>
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/bootstrap.png" alt="bootstrap"></img>
             <p>Bootstrap</p>
           </Item>
         </Grid>
 
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/git.png" alt="git"></img>
             <p>Git</p>
           </Item>
         </Grid>
 
-        <Grid item xs={4} sm={2}>
+        <Grid item xs={5} sm={2}>
           <Item>
             <img src="/figma.png" alt="react"></img>
             <p>Figma</p>
