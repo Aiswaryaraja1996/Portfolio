@@ -7,6 +7,7 @@ import Icon from "./ProfileIcon";
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
+import Link from '@material-ui/core/Link';
 
 export default function NavBar() {
   const onDownload = () => {
@@ -44,31 +45,41 @@ export default function NavBar() {
                 with code, colors and designs.
               </p>
               <div className={styles.iconWrap}>
+              
               <Tooltip title="Instagram">
               <IconButton>
+              <Link underline="none" href="https://www.instagram.com/our_art_space/" target="_blank" >
               <InstagramIcon
-                  href=""
-                  style={{ fontSize: 30, color: "#6E0DD0" }}
+                  
+                  style={{ fontSize: 36, color: "#6E0DD0" }}
                 />
+              </Link>
+          
               </IconButton>
             </Tooltip>
 
             <Tooltip title="LinkedIn">
               <IconButton>
+              <Link underline="none" href="https://www.linkedin.com/in/aiswarya-rajaponnan/" target="_blank" >
               <LinkedInIcon
-                  href="https://www.linkedin.com/in/aiswarya-rajaponnan/"
-                  style={{ fontSize: 30, color: "#6E0DD0", cursor:"pointer"}}
+                  
+                  style={{ fontSize: 40, color: "#6E0DD0", cursor:"pointer"}}
                 />
+              </Link>
+         
               </IconButton>
             </Tooltip>
              
 
             <Tooltip title="GitHub">
               <IconButton>
+              <Link underline="none"  href="https://github.com/Aiswaryaraja1996" target="_blank" >
               <GitHubIcon
-                  href="https://github.com/Aiswaryaraja1996"
-                  style={{ fontSize: 30, color: "#6E0DD0", cursor:"pointer" }}
+                 
+                  style={{ fontSize: 36, color: "#6E0DD0", cursor:"pointer" }}
                 />
+              </Link>
+           
               </IconButton>
             </Tooltip>
 
@@ -77,7 +88,7 @@ export default function NavBar() {
               <Button
                   onClick={onDownload}
                   variant="contained"
-                  style={{ backgroundImage: "linear-gradient(to right,#bc4e9c, #f80759)", color: "white",height: "30px"}}
+                  style={{ backgroundImage: "linear-gradient(to right,#bc4e9c, #f80759)", color: "white",height: "40px"}}
                   endIcon={<FileDownloadOutlinedIcon color="white" />}
                 >
                   Resume

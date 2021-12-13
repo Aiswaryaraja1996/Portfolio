@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .contactDetails p {
   padding: 0px !important;
 }
 .contact {
-    padding: 3%;
-padding-top: 50px;
+  padding: 3%;
+  padding-top: 50px;
   width: 80%;
   margin: auto;
   display: flex;
   justify-content: space-around;
- 
 }
 
 .formContainer {
@@ -27,29 +27,30 @@ padding-top: 50px;
 
 .contactDetails p {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .contactDetails p:nth-child(1) {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  font-family: "Lato", sans-serif;
   background: -webkit-linear-gradient(#bc4e9c, #f80759);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.contactDetails > div:not(:nth-child(3)) {
+.contactDetails > div:not(:nth-child(4)) {
+  margin-top: 16px;
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-  gap:4px;
+  gap: 6px;
 }
 
-.contactDetails > div:nth-child(3) {
+.contactDetails > div:nth-child(4) {
   margin-top: 160px;
 }
 
-.contactDetails > div:nth-child(3) div {
- 
+.contactDetails > div:nth-child(4) div {
   font-size: 18px;
   margin-bottom: 5px;
   color: #bc4e9c;
@@ -80,7 +81,7 @@ padding-top: 50px;
   padding: 0.5rem;
   border-radius: 7px;
   border: none;
-  background-image: linear-gradient(to right, #bc4e9c, #f80759);
+  background-color: #6e0dd0;
 }
 
 .formContainer label {
@@ -117,14 +118,14 @@ padding-top: 50px;
   .formContainer {
     width: 100%;
   }
-  .contactDetails > div:nth-child(3) {
+  .contactDetails > div:nth-child(4) {
     margin-top: 20px;
   }
 
-  .contactDetails > div:nth-child(2) p {
+  .contactDetails > div:nth-child(2) p,.contactDetails > div:nth-child(3) p  {
     font-size: 18px;
   }
-  .contactDetails p:nth-child(1){
-      font-size:2.5rem;
+  .contactDetails p:nth-child(1) {
+    font-size: 2.5rem;
   }
 }

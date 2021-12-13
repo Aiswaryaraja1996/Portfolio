@@ -3,13 +3,19 @@ import EmailIcon from "@material-ui/icons/Email";
 import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutlined";
 import QuestionAnswerOutlinedIcon from "@mui/icons-material/QuestionAnswerOutlined";
 import SentimentSatisfiedAltIcon from "@mui/icons-material/SentimentSatisfiedAlt";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function Contact() {
   return (
     <div style={{ backgroundColor: "black", width: "100%" }} id="contact">
       <div className={styles.contact}>
         <div className={styles.contactDetails}>
-          <p>CONTACT ME</p>      
+          <p>CONTACT ME</p>   
+
+                   <div>
+            <LocationOnIcon style={{ color: "white" }}></LocationOnIcon>
+            <p>Kerala, India</p>
+          </div>   
 
           <div>
             <EmailIcon style={{ color: "white" }}></EmailIcon>
