@@ -60,7 +60,7 @@
         font-size:2rem;
     }
     .projectDtls p:nth-child(2), .projectDtls p:nth-child(3){
-        font-size:1rem;
+        font-size:.7rem;
     }
     .cardCont{
         width:80%;

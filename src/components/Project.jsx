@@ -17,12 +17,12 @@ const data = [
   {
     name: "Sudoku Game",
     techStack: ["HTML5", "CSS3", "JavaScript", "BootStrap"],
-    desc: "Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 subgrids that compose the grid contain all of the digits from 1 to 9.",
+    desc: "In classic sudoku, the objective is to fill a 9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 subgrids that compose the grid contain all of the digits from 1 to 9.",
     collab: false,
     year: "Nov 2021",
     team: 3,
     days: 1,
-    img: "./sudoku.png",
+    img: "./sudoku.png",  
     
     git:"https://github.com/Aiswaryaraja1996/Sudoku-Game",
     web:"https://aiswaryaraja1996.github.io/Sudoku-Game/"
@@ -30,7 +30,7 @@ const data = [
   {
     name: "HotJar Clone",
     techStack: ["HTML5", "CSS3", "JavaScript"],
-    desc: "Hotjar is a powerful tool that reveals the online behavior and voice of your users. By combining both Analysis and Feedback tools, Hotjar gives you the 'big picture' of how to improve your site's user experience and performance/conversion rates.",
+    desc: "Hotjar is a powerful tool that reveals the online behavior and voice of your users by combining both Analysis and Feedback tools.",
     collab: true,
     year: "Sep 2021",
     team: 3,
