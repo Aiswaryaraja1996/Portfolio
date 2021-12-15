@@ -17,7 +17,7 @@ export default function TechStack() {
   return (
     <Box style={{ width: "80%", margin: "50px auto", textAlign: "Center" }}>
       <p className={styles.head} id="skills">
-        TOOLS <span style={{ color: "#545AA7" }}>AND</span> SKILLS
+        TOOLS AND SKILLS
       </p>
       <Grid
         container
