@@ -32,6 +32,7 @@ export default function NavBar() {
           className={styles.black}
         >
           <div className={styles.tab}>
+          <a href="#about"><p >ABOUT</p></a>
             <a href="#skills"><p >SKILLS</p></a>
             <a href="#project"><p>PROJECTS</p></a>
             <a href="#contact"><p>CONTACT</p></a>
@@ -40,9 +41,8 @@ export default function NavBar() {
           <div className={styles.wrap}>
             <div className={styles.content}>
               <p>Hi, I am Aiswarya</p>
-              <p>
-                I love visualizing and curating wonderful experiences
-                with code, colors and designs.
+              <p> I am a Front-end Developer,  an Artist and a color fanatic.
+                
               </p>
               <div className={styles.iconWrap}>
               

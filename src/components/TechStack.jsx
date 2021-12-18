@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 import styles from "./TechStack.module.css";
 
 const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.h6,
+  ...theme.typography.body2,
   padding: theme.spacing(0.5),
   textAlign: "center",
   color: theme.palette.text.primary,

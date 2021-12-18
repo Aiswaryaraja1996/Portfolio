@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.mainContainer {
+  display: flex;
+
+  width: 80%;
+  margin: 80px auto;
+  justify-content: space-between;
+
+  padding: 40px 0;
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+ 
+}
+.aboutme {
+  width: 30%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+
+.para {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.para p {
+  width: 70%;
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(78, 78, 78);
+  line-height:1.5;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mainContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutme{
+        width: 100%;
+        text-align: center;
+        font-size:28px;
+    }
+
+    .para{
+        width: 100%;
+        
+    }
+
+    .para p{
+        font-size: 16px;
+    }
+}
