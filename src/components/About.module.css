@@ -14,17 +14,17 @@
  
 }
 .aboutme {
-  width: 30%;
+  width: 40%;
 
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Dancing Script", cursive;
-  font-size: 3rem;
+  font-size: 2.7rem;
 }
 
 .para {
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
