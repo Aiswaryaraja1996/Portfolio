@@ -33,6 +33,7 @@ export default function NavBar() {
         >
           <div className={styles.tab}>
           <a href="#about"><p >ABOUT</p></a>
+          <a href="#experience"><p >EXPERIENCE</p></a>
             <a href="#skills"><p >SKILLS</p></a>
             <a href="#project"><p>PROJECTS</p></a>
             <a href="#contact"><p>CONTACT</p></a>

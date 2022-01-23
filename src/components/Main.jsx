@@ -5,6 +5,7 @@ import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import About from "./About";
+import Experience from "./Experience";
 
 export default function Main() {
   return (
@@ -12,7 +13,7 @@ export default function Main() {
       
       <NavBar />
       <About/>
-      {/* <About/> */}
+      <Experience/>
       <TechStack />
       <Project />
       <Contact />
