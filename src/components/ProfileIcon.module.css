@@ -14,20 +14,67 @@
   }
 }
 
-.line {
+.line1 {
+  position: absolute;
+  animation: lineanimate 3s infinite ease-in;
+}
+.line2 {
   position: relative;
-  animation: lineanimate 3s infinite;
+  animation: lineanimate 4s infinite ease-in;
+}
+.line3 {
+  position: relative;
+  animation: lineanimate 5s infinite ease-in;
+}
+.line4 {
+  position: relative;
+  animation: lineanimate 6s infinite ease-in;
+}
+.line5 {
+  position: relative;
+  animation: lineanimate 7s infinite ease-in;
+}
+.line6 {
+  position: relative;
+  animation: lineanimate 8s infinite ease-in;
+}
+.line7 {
+
+  animation: lineanimate 9s infinite ease-in;
+}
+.line8 {
+ 
+  animation: lineanimate 10s infinite ease-in;
+}
+.line9 {
+
+  animation: lineanimate 11s infinite ease-in;
+}
+.line10 {
+ 
+  animation: lineanimate 12s infinite ease-in;
+}
+.line11 {
+ 
+  animation: lineanimate 13s infinite ease-in;
+}
+.line12 {
+  
+  animation: lineanimate 14s infinite ease-in;
 }
 
 @keyframes lineanimate {
   0% {
     opacity: 0;
+   
   }
   50% {
     opacity: 1;
+   
   }
   100% {
-    opacity: 0;
+    opacity: 1;
+   
   }
 }
 

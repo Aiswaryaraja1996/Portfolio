@@ -25,7 +25,7 @@ export default function NavBar() {
           
         >
           <div className={styles.name}>
-            <p>Aiswarya</p>
+           <img src="./titleIcon.jpg" alt="title" width="12%"/>
           </div>
         </div>
         <div
@@ -42,7 +42,8 @@ export default function NavBar() {
           <div className={styles.wrap}>
             <div className={styles.content}>
               <p>Hi, I am Aiswarya</p>
-              <p> I am a Front-end Developer,  an Artist and a color fanatic.
+              <p> A Front-end Developer,{" "}an Artist </p>
+              <p>and a color fanatic.
                 
               </p>
               <div className={styles.iconWrap}>
@@ -102,8 +103,8 @@ export default function NavBar() {
               </div>
             </div>
 
-            <div>
-              <img src="./profile1.png" alt="profile" width="66%" className={styles.profilePic}/>
+            <div style={{display: "flex",justifyContent: "center",alignItems: "center"}}>
+              <img src="./profile1.png" alt="profile" width="80%" className={styles.profilePic}/>
             </div>
           </div>
         </div>

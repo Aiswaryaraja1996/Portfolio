@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import About from "./About";
 import Experience from "./Experience";
 
+
 export default function Main() {
   return (
     <div width="100%" style={{overflowX: 'hidden'}}>
