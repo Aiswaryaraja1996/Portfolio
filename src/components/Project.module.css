@@ -53,5 +53,6 @@ fieldset {
   }
   .project {
     padding: 20px;
+    padding-bottom:120px;
   }
 }

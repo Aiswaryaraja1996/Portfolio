@@ -23,13 +23,7 @@ export default function TechStack() {
       id="skills"
       className={styles.skills}
       data-aos="fade-up"
-      style={{
-        width: "80%",
-        margin: "auto",
-        textAlign: "Center",
-        paddingTop: "160px",
-        top:"100px",position: "relative"
-      }}
+   
     >
       <p className={styles.head}>TOOLS AND SKILLS</p>
       <Grid

@@ -8,14 +8,13 @@ export default function Project() {
     AOS.init();
   });
   return (
-    <div id="experience"
+    <div
+      id="experience"
       style={{ paddingTop: "150px", textAlign: "center" }}
       data-aos="fade-up"
     >
-      <p className={styles.head} >
-        WORK EXPERIENCE
-      </p>
-      <p style={{  color: "darkblue" }} className={styles.title}>
+      <p className={styles.head}>WORK EXPERIENCE</p>
+      <p style={{ color: "darkblue" }} className={styles.title}>
         System Engineer | Tata Consultancy Services, Bangalore | 20 Sept 2018 -
         17 Dec 2021
       </p>
@@ -27,13 +26,8 @@ export default function Project() {
           justifyContent: "center",
           alignItems: "center",
 
-         
-          
-   
-       
           padding: "20px 0",
-        
-        
+
           borderRadius: "1rem",
         }}
       >
