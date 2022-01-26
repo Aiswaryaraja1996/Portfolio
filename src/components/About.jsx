@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div id="about" style={{ padding: "80px" }}>
+    <div id="about" >
       <div className={styles.mainContainer}>
         <div
           className={styles.aboutme}

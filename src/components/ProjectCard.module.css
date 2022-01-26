@@ -69,8 +69,10 @@
         font-size:.7rem;
     }
     .cardCont{
-        width:80%;
+        width:100%;
         flex-direction: column;
+        margin: 10px auto;
+        
     }
     .projectDtls{
         width: 100%;

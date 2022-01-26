@@ -27,8 +27,8 @@ export default function Project() {
           justifyContent: "center",
           alignItems: "center",
 
-          width: "50%",
-          margin: "20px auto",
+         
+          
    
        
           padding: "20px 0",

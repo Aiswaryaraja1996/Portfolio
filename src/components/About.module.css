@@ -17,6 +17,9 @@
   box-shadow: lightgrey 3px 3px 5px;
   border-radius: 1.5rem;
 }
+#id{
+  padding:80px;
+}
 .aboutme {
   width: 40%;
   /* background-image: url("https://wallpapers-base.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1129486.jpg");
@@ -53,6 +56,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  #id{
+    padding:80px 20px;
   }
 
   .aboutme {

@@ -1,42 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 
 .head {
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
   font-size: 4rem;
   color: black;
-  
+
   letter-spacing: 2px;
 
   padding-bottom: 32px;
   text-align: center;
 }
-p{
-  
+p {
   font-family: "Antic Slab", serif;
 }
 li {
   font-family: "Antic Slab", serif;
   font-size: 16px;
 }
-legend{
-  font-size:20px;
+legend {
+  font-size: 20px;
 }
-.title{
-  font-size:22px;
+.title {
+  font-size: 22px;
+}
+fieldset {
+  margin: 20px auto;
+  width: 50%;
 }
 @media only screen and (max-width: 600px) {
   .head {
     font-size: 2rem;
   }
-  li{
-    font-size:12px;
+  fieldset {
+ 
+    width: 80%;
   }
-  legend{
-    font-size:14px;
+  li {
+    font-size: 12px;
   }
-  .title{
-    font-size:18px;
+  legend {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 18px;
   }
 }
