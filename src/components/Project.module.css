@@ -12,6 +12,11 @@
   padding-bottom: 32px;
   text-align: center;
 }
+#project{
+  padding:200px 40px;
+  top:100px;
+  position: relative;
+}
 p {
   font-family: "Antic Slab", serif;
 }
@@ -45,5 +50,8 @@ fieldset {
   }
   .title {
     font-size: 18px;
+  }
+  #project{
+    padding:20px;
   }
 }

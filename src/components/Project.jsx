@@ -55,7 +55,7 @@ const data = [
 
 export default function Project() {
   return (
-    <div style={{padding:"200px 40px",top:"100px",position: "relative"}} id="project">
+    <div  id="project">
       <p className={styles.head} >PROJECTS</p>
       {data.map((item) => (
         <ProjectCard item={item} />
