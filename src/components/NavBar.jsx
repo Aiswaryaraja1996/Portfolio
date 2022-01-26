@@ -132,8 +132,8 @@ export default function NavBar() {
             <div className={styles.wrap}>
               <div className={styles.content}>
                 <p>Hi, I am Aiswarya</p>
-                <p> A Front-end Developer, an Artist </p>
-                <p>and a color fanatic.</p>
+                <p> A Front-end Developer, an Artist 
+                and a color fanatic.</p>
                 <div className={styles.iconWrap}>
                   <Tooltip title="Instagram">
                     <IconButton>
