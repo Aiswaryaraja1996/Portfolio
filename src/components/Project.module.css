@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 
+.project {
+  padding: 200px 40px;
+  top: 100px;
+  position: relative;
+}
 .head {
   font-family: "Patrick Hand", cursive;
   font-size: 4rem;
@@ -12,11 +17,7 @@
   padding-bottom: 32px;
   text-align: center;
 }
-#project{
-  padding:200px 40px;
-  top:100px;
-  position: relative;
-}
+
 p {
   font-family: "Antic Slab", serif;
 }
@@ -39,7 +40,6 @@ fieldset {
     font-size: 2rem;
   }
   fieldset {
- 
     width: 80%;
   }
   li {
@@ -51,7 +51,7 @@ fieldset {
   .title {
     font-size: 18px;
   }
-  #project{
-    padding:20px;
+  .project {
+    padding: 20px;
   }
 }

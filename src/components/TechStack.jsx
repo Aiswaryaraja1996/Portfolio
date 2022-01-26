@@ -21,6 +21,7 @@ export default function TechStack() {
   return (
     <div
       id="skills"
+      className={styles.skills}
       data-aos="fade-up"
       style={{
         width: "80%",

@@ -1,21 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
 
 .head {
-  font-family: 'Patrick Hand', cursive;
+  font-family: "Patrick Hand", cursive;
   font-size: 4rem;
   color: black;
 
-  letter-spacing:2px;
+  letter-spacing: 2px;
   padding-bottom: 50px;
 }
 
-item p{
+.skills {
+  width: 80%;
+  margin: auto;
+  text-align: Center;
+  padding-top: 160px;
+  top: 100px;
+  position: relative;
+}
+
+item p {
   font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {
-  .head{
+  .head {
     font-size: 2rem;
+  }
+  .skills{
+    padding-top:80px;
   }
 }
