@@ -7,7 +7,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 export default function Contact() {
   return (
-    <div style={{ backgroundColor: "black", width: "100%" }} id="contact">
+    <div style={{ backgroundColor: "black", width: "100%",top:"100px"}} id="contact">
       <div className={styles.contact}>
         <div className={styles.contactDetails}>
           <p>CONTACT ME</p>   
@@ -22,7 +22,7 @@ export default function Contact() {
             <p>ammu.rajaponnan@gmail.com</p>
           </div>
 
-          <div
+          {/* <div
             style={{ color: "white", display: "flex", flexDirection: "column" }}
           >
             <div style={{ display: "flex", alignItems: "center" }}>
@@ -41,7 +41,7 @@ export default function Contact() {
                 <SentimentSatisfiedAltIcon  style={{color:"#6E0DD0"}}/>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <form
           className={styles.formContainer}

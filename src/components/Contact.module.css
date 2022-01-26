@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
 
 .contactDetails p {
   padding: 0px !important;
@@ -18,7 +20,8 @@
   display: flex;
   flex-direction: column;
   width: 40%;
-  gap: 1.5rem;
+  gap: 1.25rem;
+  font-family: "Antic Slab", serif;
 }
 
 .contactDetails {
@@ -27,22 +30,23 @@
 
 .contactDetails p {
   color: white;
-  font-family: "Lato", sans-serif;
+  font-family: "Antic Slab", serif;
 }
 
 .contactDetails p:nth-child(1) {
-  font-size: 3.5rem;
-  font-family: "Lato", sans-serif;
-  background: -webkit-linear-gradient(#bc4e9c, #f80759);
+  font-size: 3rem;
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  /* background: -webkit-linear-gradient(#bc4e9c, #f80759);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .contactDetails > div:not(:nth-child(4)) {
   margin-top: 16px;
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   gap: 6px;
 }
 
@@ -64,8 +68,8 @@
   border-style: none;
   color: white;
 
-  border: 1px solid #6e0dd0;
-  padding: 3%;
+  border: 1px solid white;
+  padding: 2.5%;
 
   border-radius: 7px;
 }
@@ -75,18 +79,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   gap: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   padding: 0.5rem;
   border-radius: 7px;
   border: none;
-  background-color: #6e0dd0;
+  background-color: white;
 }
 
 .formContainer label {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .formContainer textarea {
@@ -110,6 +114,7 @@
 @media only screen and (max-width: 600px) {
   .contact {
     flex-direction: column;
+    gap:1.5rem;
   }
   .contactDetails {
     width: 100%;

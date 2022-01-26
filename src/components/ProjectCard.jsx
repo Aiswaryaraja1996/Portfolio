@@ -21,7 +21,7 @@ const ProjectCard = ({ item }) => {
                 <Link href={item.web} target="_blank" underline="none">
                   {" "}
                   <LanguageIcon
-                    style={{ fontSize: 40, color: "#42275a" }}
+                    style={{ fontSize: 40, color: "black" }}
                   ></LanguageIcon>
                 </Link>
               </IconButton>
@@ -31,7 +31,7 @@ const ProjectCard = ({ item }) => {
               <IconButton>
                 <Link href={item.git} target="_blank" underline="none">
                   <GitHubIcon
-                    style={{ fontSize: 38, color: "#42275a" }}
+                    style={{ fontSize: 38, color: "black" }}
                   ></GitHubIcon>
                 </Link>
               </IconButton>

@@ -1,25 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 .mainContainer {
   display: flex;
 
   width: 80%;
-  margin: 80px auto;
+  margin: 40px auto;
+
   justify-content: space-between;
 
-  padding: 40px 0;
+  /* padding: 40px 0; */
 
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
- 
+  /* border: 1px solid black; */
+  box-shadow: lightgrey 3px 3px 5px;
+  border-radius: 1.5rem;
 }
 .aboutme {
   width: 40%;
-
+  /* background-image: url("https://wallpapers-base.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1129486.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover; */
+ 
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Dancing Script", cursive;
+  font-family: 'Patrick Hand', cursive;
   font-size: 2.7rem;
 }
 
@@ -32,34 +39,33 @@
 }
 
 .para p {
+  font-family: "Antic Slab", serif;
   width: 70%;
   text-align: justify;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  color: rgb(78, 78, 78);
-  line-height:1.5;
+  font-size: 18px;
+  /* font-family: 'Lato', sans-serif; */
+  color: rgb(32, 32, 32);
+  line-height: 1.5;
 }
 
-
 @media only screen and (max-width: 600px) {
-    .mainContainer{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .mainContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .aboutme{
-        width: 100%;
-        text-align: center;
-        font-size:28px;
-    }
+  .aboutme {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+  }
 
-    .para{
-        width: 100%;
-        
-    }
+  .para {
+    width: 100%;
+  }
 
-    .para p{
-        font-size: .7rem;
-    }
+  .para p {
+    font-size: 0.7rem;
+  }
 }

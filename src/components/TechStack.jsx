@@ -1,31 +1,43 @@
 import * as React from "react";
 import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import styles from "./TechStack.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(0.5),
   textAlign: "center",
   color: theme.palette.text.primary,
-
 }));
 
 export default function TechStack() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
-    <Box style={{ width: "80%", margin: "50px auto", textAlign: "Center" }}>
-      <p className={styles.head} id="skills">
-        TOOLS AND SKILLS
-      </p>
+    <div
+      id="skills"
+      data-aos="fade-up"
+      style={{
+        width: "80%",
+        margin: "auto",
+        textAlign: "Center",
+        paddingTop: "160px",
+        top:"100px",position: "relative"
+      }}
+    >
+      <p className={styles.head}>TOOLS AND SKILLS</p>
       <Grid
         container
         spacing={3}
         justifyContent="center"
         className={styles.itemCont}
       >
-        <Grid item xs={5} sm={2} >
+        <Grid item xs={5} sm={2}>
           <Item elevation={1} variant="outlined">
             <img src="/react.png" alt="react"></img>
             <p>React</p>
@@ -35,7 +47,13 @@ export default function TechStack() {
           <Item elevation={1} variant="outlined">
             <img src="/javascript.png" alt="javascript"></img>
             <p>JavaScript</p>
-          </Item >
+          </Item>
+        </Grid>
+        <Grid item xs={5} sm={2}>
+          <Item elevation={1} variant="outlined">
+            <img src="/typescript.png" alt="typescript"></img>
+            <p>TypeScript</p>
+          </Item>
         </Grid>
         <Grid item xs={5} sm={2}>
           <Item elevation={1} variant="outlined">
@@ -68,6 +86,12 @@ export default function TechStack() {
             <p>Git</p>
           </Item>
         </Grid>
+        <Grid item xs={5} sm={2}>
+          <Item elevation={1} variant="outlined">
+            <img src="/postman.png" alt="postman"></img>
+            <p>Postman</p>
+          </Item>
+        </Grid>
 
         <Grid item xs={5} sm={2}>
           <Item elevation={1} variant="outlined">
@@ -76,6 +100,6 @@ export default function TechStack() {
           </Item>
         </Grid>
       </Grid>
-    </Box>
+    </div>
   );
 }

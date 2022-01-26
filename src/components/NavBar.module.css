@@ -3,17 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
 
-.tab  a{
+.tab a {
   text-decoration: none;
   position: relative;
   display: inline-block;
   color: white;
 }
-.tab a:after {    
+/* .tab a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -21,13 +21,14 @@
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: white;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
-}
-.tab a:hover:after { 
-  width: 100%; 
-  left: 0; 
+  z-index: 10;
+} */
+.tab a:hover:after {
+  width: 100%;
+  left: 0;
 }
 .header {
   background-color: black;
@@ -51,32 +52,52 @@
 .tab {
   display: flex;
   gap: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.25rem;
-  justify-content: flex-end;
-  padding: 1rem;
-  margin:10px;  
+  padding: 0.15rem;
 }
 
-.name{
+.name {
+  padding: 0.15rem;
+  margin-left: 42px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
-  padding: 1rem;
+.name img {
+  animation: fadeIn 5s ease-in-out linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .content p:nth-child(1) {
-  font-family: 'Antic Slab', serif;
+  font-family: "Antic Slab", serif;
   font-size: 3rem;
- 
 }
 
-.content p:nth-child(2),.content p:nth-child(3) {
-  font-family: 'Lato', sans-serif;
+.content p:nth-child(2),
+.content p:nth-child(3) {
+  /* font-family: 'Lato', sans-serif; */
+  font-family: "Antic Slab", serif;
   font-size: 1.25rem;
   text-align: justify;
   line-height: 1;
   color: #9b9b9b;
-  letter-spacing:2px;
+  letter-spacing: 2px;
 }
 
 .content {
@@ -101,10 +122,9 @@
   justify-content: space-around;
   align-items: center;
   margin-left: 22%;
-  margin-top: 18%;
+  margin-top: 24%;
   margin-right: 1%;
   gap: 3rem;
-
 }
 
 .profilePic {
@@ -112,7 +132,7 @@
 }
 
 .parent {
-  height:100vh;
+  height: 100vh;
 }
 
 .white {
@@ -133,17 +153,20 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .tab {
-    
-    gap:0;
-    font-size: 1rem;
-    justify-content:center;
-    flex-wrap: wrap;
+  .name{
+    display: none;
   }
-.iconWrap{
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .tab {
+    gap: 0;
+    font-size: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+  }
+  .iconWrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .wrap {
     flex-direction: column-reverse;
@@ -151,23 +174,25 @@
     margin-left: 1%;
     justify-content: center;
     align-items: center;
+    margin-top:18%;
   }
   .content {
     width: 70%;
   }
 
-  .content p:nth-child(1){
-    font-size:1.9rem;
-    text-align:center;
+  .content p:nth-child(1) {
+    font-size: 1.9rem;
+    text-align: center;
   }
-  .content p:nth-child(2),.content p:nth-child(3){
+  .content p:nth-child(2),
+  .content p:nth-child(3) {
     font-size: 1rem;
-    text-align:center;
+    text-align: center;
   }
   .profilePic {
     width: 50%;
   }
- 
+
   .wrap div:nth-child(2) {
     width: 100%;
     display: flex;

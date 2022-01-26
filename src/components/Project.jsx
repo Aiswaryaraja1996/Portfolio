@@ -39,12 +39,24 @@ const data = [
     git:"https://github.com/Aiswaryaraja1996/Hotjar",
     web:"https://aiswaryaraja1996.github.io/Hotjar/"
   },
+  {
+    name: "Flipkart Clone",
+    techStack: ["React","Redux","Routes","Material UI"],
+    desc: "Flipkart is a leading destination for online shopping in India.E-commerce marketplace offering over 30 million products cross 70+ categories.",
+    collab: true,
+    year: "Dec 2021",
+    team: 2,
+    days: 5,
+    img: "./flipkart.png",
+    git:"https://github.com/Aiswaryaraja1996/Flipkart-Project",
+    web:"https://clone-flipkart.netlify.app/"
+  },
 ];
 
 export default function Project() {
   return (
-    <div style={{paddingBottom:"56px"}}>
-      <p className={styles.head} id="project">PROJECTS</p>
+    <div style={{padding:"200px 40px",top:"100px",position: "relative"}} id="project">
+      <p className={styles.head} >PROJECTS</p>
       {data.map((item) => (
         <ProjectCard item={item} />
       ))}

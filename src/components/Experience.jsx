@@ -1,41 +1,50 @@
 import styles from "./Project.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Project() {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
-    <div style={{ paddingBottom: "56px", textAlign: "center" }}>
-      <p className={styles.head} id="experience">
+    <div id="experience"
+      style={{ paddingTop: "150px", textAlign: "center" }}
+      data-aos="fade-up"
+    >
+      <p className={styles.head} >
         WORK EXPERIENCE
       </p>
-      <p style={{ fontSize: "24px" }}>
-        SYSTEM ENGINEER | TATA CONSULTANCY SERVICES, BANGALORE | 20 Sept 2018 -
+      <p style={{  color: "darkblue" }} className={styles.title}>
+        System Engineer | Tata Consultancy Services, Bangalore | 20 Sept 2018 -
         17 Dec 2021
       </p>
 
       <fieldset
         style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-         
-          width: "60%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+
+          width: "50%",
           margin: "20px auto",
-
+   
+       
           padding: "20px 0",
-
-          border: "1px solid rgba(0, 0, 0, 0.12)",
-          borderRadius: "5px",
-          
+        
+        
+          borderRadius: "1rem",
         }}
       >
-        <legend style={{ fontSize: "20px" }}>ROLES AND RESPONSIBILITIES</legend>
-        <ul style={{textAlign: "Left",fontSize:"18px",lineHeight: "2"}}>
+        <legend>ROLES AND RESPONSIBILITIES</legend>
+        <ul style={{ textAlign: "Left", fontSize: "18px", lineHeight: "2" }}>
           <li>
             Developer in an agile team of a US-based wealth management firm.
           </li>
           <li>
-            Development, testing, and support of all the requirements
-            and managing all aspects of SDLC.
+            Development, testing, and support of all the requirements and
+            managing all aspects of SDLC.
           </li>
           <li>Creates HLD/LLD documentation and user stories.</li>
           <li>

@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap");
+
 .projectDtls{
     overflow: hidden;
     text-align: justify;
     width:40%;
+    
 }
 
 .projectDtls p:nth-child(1){
     font-size:2.8rem;
+    font-family: "Antic Slab", serif;
 }
 
 .projectDtls p:nth-child(2),.projectDtls p:nth-child(3){
+    font-family: "Antic Slab", serif;
     font-size:1rem;
     color: rgb(48, 44, 44);
 }
@@ -24,12 +29,13 @@
 .btn{
     outline:none;
     border-style: none;
-    background-color:#42275a;
+    background-color:black;
     padding:.5rem;
     color:white;
     font-size:14px;
     letter-spacing:1px;
     border-radius: 7px;
+    font-family: "Antic Slab", serif;
 }
 
 .iconWrap{
