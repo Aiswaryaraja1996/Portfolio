@@ -26,7 +26,7 @@ export default function Project() {
           justifyContent: "center",
           alignItems: "center",
 
-          padding: "20px 0",
+          padding: "20px",
 
           borderRadius: "1rem",
         }}

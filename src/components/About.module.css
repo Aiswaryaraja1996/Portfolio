@@ -6,7 +6,7 @@
 .mainContainer {
   display: flex;
 
-  width: 80%;
+  width: 90%;
   margin: 40px auto;
 
   justify-content: space-between;
@@ -21,7 +21,7 @@
   padding:80px;
 }
 .aboutme {
-  width: 40%;
+  width: 50%;
   /* background-image: url("https://wallpapers-base.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1129486.jpg");
   background-repeat: no-repeat; 
   background-size: cover; */

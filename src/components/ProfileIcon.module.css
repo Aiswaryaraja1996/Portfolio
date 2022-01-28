@@ -92,8 +92,8 @@
 }
 
 .iconSvg{
-    position: relative;
-    top:-500px;
+    position:relative;
+    top:calc(250px - 100%);
     left:50px;
 }
 
